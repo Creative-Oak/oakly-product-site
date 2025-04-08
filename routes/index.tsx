@@ -21,7 +21,7 @@ export default function Home() {
                 class="w-16 h-auto"
               />
               <h1 class="text-6xl font-bold text-white">
-                Oakly
+                oakly
               </h1>
             </div>
             <div class="space-y-4 animate-fade-in-up">
