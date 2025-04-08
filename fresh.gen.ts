@@ -5,8 +5,13 @@
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $api_joke from "./routes/api/joke.ts";
+import * as $api_subscribe from "./routes/api/subscribe.ts";
+import * as $coming_soon from "./routes/coming-soon.tsx";
 import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
+import * as $main_site from "./routes/main-site.tsx";
+import * as $AnimatedBackground from "./islands/AnimatedBackground.tsx";
+import * as $AnimatedSignUp from "./islands/AnimatedSignUp.tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
@@ -15,10 +20,15 @@ const manifest = {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
     "./routes/api/joke.ts": $api_joke,
+    "./routes/api/subscribe.ts": $api_subscribe,
+    "./routes/coming-soon.tsx": $coming_soon,
     "./routes/greet/[name].tsx": $greet_name_,
     "./routes/index.tsx": $index,
+    "./routes/main-site.tsx": $main_site,
   },
   islands: {
+    "./islands/AnimatedBackground.tsx": $AnimatedBackground,
+    "./islands/AnimatedSignUp.tsx": $AnimatedSignUp,
     "./islands/Counter.tsx": $Counter,
   },
   baseUrl: import.meta.url,

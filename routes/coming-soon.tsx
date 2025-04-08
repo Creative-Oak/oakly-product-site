@@ -2,7 +2,7 @@ import { Head } from "$fresh/runtime.ts";
 import AnimatedBackground from "../islands/AnimatedBackground.tsx";
 import AnimatedSignUp from "../islands/AnimatedSignUp.tsx";
 
-export default function Home() {
+export default function ComingSoon() {
   return (
     <>
       <Head>
@@ -39,6 +39,7 @@ export default function Home() {
           
           <div class="space-y-6">
             <div class="flex justify-center space-x-6">
+             
               <a
                 href="https://www.linkedin.com/company/oakly-digital/"
                 target="_blank"
@@ -57,4 +58,4 @@ export default function Home() {
       </div>
     </>
   );
-}
+} 
