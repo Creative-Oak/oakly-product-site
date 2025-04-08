@@ -20,11 +20,11 @@ export default function AnimatedBackground() {
       {/* Base gradient */}
       <div class="absolute inset-0 bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] opacity-60" />
       
-      {/* Floating elements - placed above the base gradient */}
-      <div class="absolute w-[500px] h-[500px] rounded-full bg-blue-400/40 blur-2xl animate-float-1" />
-      <div class="absolute w-[600px] h-[600px] rounded-full bg-indigo-400/40 blur-2xl animate-float-2" />
-      <div class="absolute w-[550px] h-[550px] rounded-full bg-purple-400/40 blur-2xl animate-float-3" />
-      <div class="absolute w-[450px] h-[450px] rounded-full bg-blue-400/40 blur-2xl animate-float-4" />
+      {/* Floating elements - placed above the base gradient, with responsive sizes */}
+      <div class="absolute w-[250px] sm:w-[350px] md:w-[500px] h-[250px] sm:h-[350px] md:h-[500px] rounded-full bg-blue-400/40 blur-2xl animate-float-1" />
+      <div class="absolute w-[300px] sm:w-[400px] md:w-[600px] h-[300px] sm:h-[400px] md:h-[600px] rounded-full bg-indigo-400/40 blur-2xl animate-float-2" />
+      <div class="absolute w-[275px] sm:w-[375px] md:w-[550px] h-[275px] sm:h-[375px] md:h-[550px] rounded-full bg-purple-400/40 blur-2xl animate-float-3" />
+      <div class="absolute w-[225px] sm:w-[325px] md:w-[450px] h-[225px] sm:h-[325px] md:h-[450px] rounded-full bg-blue-400/40 blur-2xl animate-float-4" />
       
       {/* Overlay gradients - placed on top */}
       <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.4)_0%,transparent_50%)] animate-pulse-slow" />
